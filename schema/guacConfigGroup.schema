@@ -1,0 +1,33 @@
+#
+# This schema contains an inofficial, altered version of object class guacConfigGroup.
+# Objects created using this class will be incompatible with the official schema.
+#
+
+attributetype ( 1.3.6.1.4.1.38971.1.1.1 NAME 'guacConfigProtocol'
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+attributetype ( 1.3.6.1.4.1.38971.1.1.2 NAME 'guacConfigParameter'
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+attributetype ( 1.3.6.1.4.1.38971.1.1.3 NAME 'guacConfigProxyHostname'
+    SINGLE-VALUE
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+attributetype ( 1.3.6.1.4.1.38971.1.1.4 NAME 'guacConfigProxyPort'
+    SINGLE-VALUE
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.27 )
+
+attributetype ( 1.3.6.1.4.1.38971.1.1.5 NAME 'guacConfigProxyEncryption'
+    SINGLE-VALUE
+    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+objectClass ( 2.25.168357219212813334508930408357184981976 NAME 'guacConfigGroup'
+    DESC 'Guacamole configuration group, modified for use with Univention Directory Manager'
+    SUP top
+    STRUCTURAL
+    MUST ( guacConfigProtocol $ cn )
+    MAY ( guacConfigParameter $
+          guacConfigProxyHostname $
+          guacConfigProxyPort $
+          guacConfigProxyEncryption $
+          uniqueMember $ seeAlso $ description ) )

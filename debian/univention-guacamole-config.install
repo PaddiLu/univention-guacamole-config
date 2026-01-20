@@ -1,0 +1,3 @@
+modules/univention/admin/handlers/guacamole-config/*.py	usr/lib/python3/dist-packages/univention/admin/handlers/guacamole-config/
+schema/*.schema	/usr/share/univention-guacamole-config/schema/
+icons /usr/share/univention-management-console-frontend/js/dijit/themes/umc

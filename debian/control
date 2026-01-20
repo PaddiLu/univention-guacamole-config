@@ -1,0 +1,24 @@
+Source: univention-guacamole-config
+Section: univention
+Priority: optional
+Maintainer: Patrick Lübcke <patrickluebcke@gmail.com>
+Build-Depends:
+ debhelper-compat (=13),
+ dh-python,
+ python3-all,
+ univention-config-dev (>= 15.0.3),
+ univention-l10n-dev (>= 7.0.1),
+Standards-Version: 3.7.2
+
+Package: univention-guacamole-config
+Architecture: all
+Depends:
+ shell-univention-lib (>> 1.0.1-1),
+ univention-config (>= 7.0.25),
+ univention-directory-manager-tools,
+ ${misc:Depends},
+ ${python3:Depends},
+Description: UCS - LDAP integration of Apache Guacamole connections
+ This package integrates an LDAP object type, used to store
+ connection configurations for use with Apache Guacamole,
+ into a Univention UCS domain.

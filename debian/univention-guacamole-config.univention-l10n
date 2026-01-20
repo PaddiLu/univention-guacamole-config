@@ -1,0 +1,10 @@
+[
+	{
+		"input_files": [
+			"modules/univention/admin/handlers/guacamole-config/.*\\.py"
+		],
+		"po_subdir": "modules/univention/admin/handlers/guacamole-config",
+		"target_type": "mo",
+		"destination": "usr/share/locale/{lang}/LC_MESSAGES/univention-admin-handlers-guacamole-config.mo"
+	}
+]

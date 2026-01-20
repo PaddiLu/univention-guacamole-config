@@ -1,0 +1,148 @@
+# univention-guacamole-config german translation
+
+# SPDX-FileCopyrightText: 2026 Patrick Lübcke
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+msgid ""
+msgstr ""
+"Project-Id-Version: univention-guacamole-config\n"
+"Report-Msgid-Bugs-To: packages@univention.de\n"
+"POT-Creation-Date: 2026-01-15 11:59+0100\n"
+"PO-Revision-Date: 2026-01-15 12:26+0100\n"
+"Last-Translator: Patrick Lübcke <patrickluebcke@gmail.com>\n"
+"Language-Team: German <patrickluebcke@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:133
+msgid "Access Control"
+msgstr "Zugriffssteuerung"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:126
+msgid "Basic Settings"
+msgstr "Grundeinstellungen"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:48
+msgid "Configuration for an Apache Guacamole connection"
+msgstr "Einstellungen für eine Apache Guacamole-Verbindung"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:31
+msgid "Connection Protocol"
+msgstr "Verbindungsprotokoll"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:128
+msgid "Connection Settings"
+msgstr "Verbindungseinstellungen"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:81
+msgid "Connection parameters, given as name=value"
+msgstr "Verbindungsparameter im Format name=wert"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:68
+msgid "Description"
+msgstr "Beschreibung"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:37
+#: modules/univention/admin/handlers/guacamole-config/connection.py:118
+msgid "Encryption"
+msgstr "Verschlüsselung"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:126
+msgid "General"
+msgstr "Allgemein"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:96
+msgid "Groups"
+msgstr "Gruppen"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:97
+msgid "Groups whose members may access this configuration"
+msgstr "Gruppen, deren Mitglieder auf diese Verbindung zugreifen dürfen"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:47
+msgid "Guacamole Connection"
+msgstr "Guacamole-Verbindung"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:105
+msgid "Hostname"
+msgstr "Hostname"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:32
+msgid "Kubernetes"
+msgstr "Kubernetes"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:61
+msgid "Name"
+msgstr "Name"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:39
+msgid "None"
+msgstr "Keine"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:80
+msgid "Parameter"
+msgstr "Parameter"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:111
+msgid "Port"
+msgstr "Port"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:73
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:136
+msgid "Proxy"
+msgstr "Proxy"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:32
+msgid "RDP"
+msgstr "RDP"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:32
+msgid "SSH"
+msgstr "SSH"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:39
+msgid "SSL"
+msgstr "SSL"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:32
+msgid "Telnet"
+msgstr "Telnet"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:112
+msgid "The TCP port to use to connect to guacd (default if empty)"
+msgstr "Der TCP-Port des guacd-Servers (Standard, falls leer)"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:119
+msgid "The encryption method to use to connect to guacd (default if empty)"
+msgstr "Die Verschlüsselungsmethode für die Verbindung zum guacd-Server (Standard, falls leer)"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:106
+msgid ""
+"The host name or IP address to use to connect to guacd (default if empty)"
+msgstr "Der Hostname oder die IP-Adresse des guacd-Servers (Standard, falls leer)"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:74
+msgid "The protocol used to connect to the host"
+msgstr "Das Protokoll für die Verbindung mit dem Host"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:87
+#: modules/univention/admin/handlers/guacamole-config/connection.py:133
+msgid "Users"
+msgstr "Benutzer"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:88
+msgid "Users that may access this configuration"
+msgstr "Benutzer, welche auf diese Verbindung zugreifen dürfen"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:32
+msgid "VNC"
+msgstr "VNC"
+
+#: modules/univention/admin/handlers/guacamole-config/connection.py:136
+msgid "guacd Proxy Settings"
+msgstr "guacd-Proxy-Einstellungen"
